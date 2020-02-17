@@ -1,0 +1,1725 @@
+Package: apt-ftparchive
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.9-25
+Homepage: https://packages.debian.org/apt
+Depends: libdb, apt (= 1.4.9-25)
+Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
+Filename: dists/stable/main/binary-aarch64/apt-ftparchive_1.4.9-25_aarch64.deb
+Size: 818
+MD5Sum: fcb29bdb3e09cd684a1f0facae036681
+SHA1: 076897a80f0ff8f1c9997a8c56cc17a5320d4bf0
+SHA256: d0a68a93f05acd1d775951b1723baed985783fece5d55d923b903757afda9cd8
+SHA512: 1a534a27b978fa95589dcbfd8d34fac2e21b27621b7e01957cb5c55775e83a8da48d42cea8a92865096cd19fc843b3e65f27778e2f62639a2c8706cf23f91430
+
+Package: apt
+Architecture: aarch64
+Installed-Size: 3448
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.9-25
+Homepage: https://packages.debian.org/apt
+Depends: coreutils, dpkg, findutils, gpgv, grep, libc++, libcurl, liblzma, sed, termux-licenses, zlib
+Essential: yes
+Conflicts: apt-transport-https, libapt-pkg
+Recommends: game-repo, science-repo
+Replaces: apt-transport-https, libapt-pkg
+Suggests: gnupg, unstable-repo, x11-repo
+Description: Front-end for the dpkg package manager
+Filename: dists/stable/main/binary-aarch64/apt_1.4.9-25_aarch64.deb
+Size: 836156
+MD5Sum: 3eedc51cc3bd5021f0072547da13e5c5
+SHA1: 82d90956ea94c6f0954d5302f63acff50f4f7f26
+SHA256: 31b54562b80ab96b56509ef1dd15a77956fdba11e81a1fc94a685cfb4ed850be
+SHA512: b073e02a7254c4e179adf0bd64bd0c99ae50e1fac058f95aee1cf69391506f03c6347a2454efe88accca3f081e79089e5d4bd8daf0527f76fa100f1b2cfa3864
+
+Package: bash
+Architecture: aarch64
+Installed-Size: 3932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.16
+Homepage: https://www.gnu.org/software/bash/
+Breaks: bash-dev
+Depends: libandroid-support, libiconv, ncurses, readline (>= 8.0), termux-tools
+Essential: yes
+Recommends: command-not-found
+Replaces: bash-dev
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Filename: dists/stable/main/binary-aarch64/bash_5.0.16_aarch64.deb
+Size: 788780
+MD5Sum: 4e68b5d6c5c8b3872d73dbc5f0ee9003
+SHA1: 0067937bd8522955cfe6115a5fa3fedeb521d8b4
+SHA256: f6e721b14a07dcb1e7c9d84c1205513854646a6485bff0fbec08bebc4587ab55
+SHA512: ecaecc4e6034c80a3197c90be40284cb4380db6f86fcd83b45328351ea0dce0509c062a035a8b63254bf953bd19a328714dda69be56f52c3ed3a25d55f2ffbb9
+
+Package: busybox
+Architecture: aarch64
+Installed-Size: 932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.31.1-6
+Homepage: https://busybox.net/
+Conflicts: coreutils (<< 8.25-4)
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Filename: dists/stable/main/binary-aarch64/busybox_1.31.1-6_aarch64.deb
+Size: 416214
+MD5Sum: dd96802658717ec2bd15f732d4146ec3
+SHA1: 9d0434ea851d8925007a7cb74d60c14645921579
+SHA256: 2592925b02ce72974fa540b49db552cdb7042a7ff61f242976207d65a225e7a4
+SHA512: 1f45e973f46319e33ca3d9a6338af7d248b572edc05e4bc1fac826c3ac9cb15dab85a9bf9e0d6963abb92098c0468393b97c7bea139e3afb1f40b353b4d73b35
+
+Package: bzip2
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.8-5
+Homepage: http://www.bzip.org/
+Essential: yes
+Depends: libbz2 (= 1.0.8-5)
+Description: Tools for working with bzip2 compression
+Filename: dists/stable/main/binary-aarch64/bzip2_1.0.8-5_aarch64.deb
+Size: 25474
+MD5Sum: 7e60bedf7aac433f5efeaff0f56b4e90
+SHA1: c6350601769aab6d19188994b445ddba326e8315
+SHA256: ba5d6ffcfd5b15718935cc2e220211f99c70af78f18fab0c9b3e028282648815
+SHA512: 6efd4e50ee0742c8f81ce667c369a375c94196314c17d5d27bf15fa3b3ea6c1b8829577e199f648f9b8463daf5dfd60a69c46c0818c6164382775cabe035cdd0
+
+Package: ccnet-static
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.8-1
+Homepage: https://github.com/haiwen/ccnet
+Depends: ccnet (= 6.1.8-1)
+Description: Static libraries for ccnet
+Filename: dists/stable/main/binary-aarch64/ccnet-static_6.1.8-1_aarch64.deb
+Size: 36806
+MD5Sum: fcf524c89dd3c9e6d06799e5a3b4e196
+SHA1: d90b51f22e48adf3c0909c7072cd5c1af4735c41
+SHA256: 886fe47101b56fc2194a419a4c7f895a1d76e352d306b83f39b9890b6c96fca4
+SHA512: 3381d5564edec15e69dc66469056f3e40b20fbe3bce097ebf99eea76d05abe19a606e0e20e141434832324c7a181494906650726c713663ff155d14c9580f363
+
+Package: ccnet
+Architecture: aarch64
+Installed-Size: 736
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.8-1
+Homepage: https://github.com/haiwen/ccnet
+Breaks: ccnet-dev
+Depends: libuuid, libevent, libsearpc, libsqlite, openssl
+Replaces: ccnet-dev
+Description: Ccnet is a framework for writing networked applications in C
+Filename: dists/stable/main/binary-aarch64/ccnet_6.1.8-1_aarch64.deb
+Size: 97680
+MD5Sum: 7adc0fdee42d44d5138240b8c922c330
+SHA1: 0b539d6a08207e8649f46fb7571db8c644be2715
+SHA256: afe38237c9f41f282e6067b16a1f2229003f201b7a52c03a1ca7891a5b6116a3
+SHA512: 9560e5e3ecccceda1463e1e31fa640c840231fbb09e49cbae6cb72dc30d345e56de9673dcac512ededec38b9dc9815e5e8ec7d385423d200fd9e5665aa26e596
+
+Package: command-not-found
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.47
+Homepage: https://github.com/termux/command-not-found
+Description: Suggest installation of packages in interactive shell sessions
+Filename: dists/stable/main/binary-aarch64/command-not-found_1.47_aarch64.deb
+Size: 52702
+MD5Sum: c6b4c5f59d179fc8cfe945321e86afb7
+SHA1: 94a493f12ed482be20db22b78328dbd42f11e25b
+SHA256: dc3fba2a1f4394b87b9c09c0a5cd1901be0da78e8502887b09e20ae25da1a62a
+SHA512: 485b79fd9f38aa1917c4a94bbeb6ad9059f73578cd1d93d68e0b227bd60a7e329d881fd85f0cdc7e27d6bbb94bb91e327cada14cc895b4ba38209392149db44d
+
+Package: coreutils
+Architecture: aarch64
+Installed-Size: 2388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.31-8
+Homepage: https://www.gnu.org/software/coreutils/
+Breaks: chroot, busybox (<< 1.30.1-4)
+Depends: libandroid-support, libgmp, libiconv
+Essential: yes
+Replaces: chroot, busybox (<< 1.30.1-4)
+Description: Basic file, shell and text manipulation utilities from the GNU project
+Filename: dists/stable/main/binary-aarch64/coreutils_8.31-8_aarch64.deb
+Size: 687842
+MD5Sum: dbfbbaa8e6a90ff3116d19fd34ca886e
+SHA1: 6d7e1095dbfbe7b0f213d825ee67518909fdfcc8
+SHA256: 51e75f3c4a635585fe36e09ef1f56c4603bdb4f76d12774fe270a009c44eca48
+SHA512: 1ea979bf90e1b3d7cc78aa8a039b734b5a61306289c77efdcad41da832a7876576faeaf351b654313eedc8fefb5904201cf691950f28c32c5537db88e2a0d64b
+
+Package: curl
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.68.0
+Homepage: https://curl.haxx.se/
+Essential: yes
+Depends: libcurl (= 7.68.0)
+Description: Command line tool for transferring data with URL syntax
+Filename: dists/stable/main/binary-aarch64/curl_7.68.0_aarch64.deb
+Size: 143014
+MD5Sum: c4655ed60323ad2a8b95be449c6ceab4
+SHA1: 93fca844abf0d000b5c929db8e6f6178a39f5ff9
+SHA256: 9291e24c656345f21b5091186252ac293f07be39a2953af193234ce4d89c5208
+SHA512: 25a1e0b8c8ef3035a0db61269cde66b389d6208c906363f7829b36125d8de264b93065ca74bbe35887ed7531fdb585e6c3ae272358968ae35d309f48d4e2a619
+
+Package: dash
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.5.10.2-2
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+Essential: yes
+Description: Small POSIX-compliant implementation of /bin/sh
+Filename: dists/stable/main/binary-aarch64/dash_0.5.10.2-2_aarch64.deb
+Size: 61116
+MD5Sum: bb201aca1de8faa6e243ada4b8405e53
+SHA1: 4dac394c33cea936f86c67f56909ab10bff62f0d
+SHA256: 37a3993469cef7e8c75373a1836e9d2c95e5fdb1bc58b3a6e9c839eaa9eeb0e0
+SHA512: 1e3351d9ebcdff0260cffb92a4e431fe18942bd4e92dc147ed4be805c3699435a0c70a7a0360c9bfed81cec2921a8306403238699805256d25c6f1a66a39c42e
+
+Package: db
+Architecture: aarch64
+Installed-Size: 320
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 18.1.32-3
+Homepage: https://www.oracle.com/database/berkeley-db
+Depends: libdb (= 18.1.32-3)
+Description: The Berkeley DB embedded database system
+Filename: dists/stable/main/binary-aarch64/db_18.1.32-3_aarch64.deb
+Size: 36926
+MD5Sum: 0701ccaa5462b17473b11659b9c7b134
+SHA1: 56741d4ed34b2720a084ffc2f42df03e5bdd9454
+SHA256: 760593bd924c2f04a89cf368f636966e2a59e56b92a74fd05d3a71b2f84bc173
+SHA512: 0c3c664e52051c7353fdd5be22f8d4c11ba8a0509d028434a8781ccf81fe1d37a8a1c2c5a3071a1abe9ada425bc362101ecd254656c834fedc3001645c2100d6
+
+Package: diffutils
+Architecture: aarch64
+Installed-Size: 544
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.7-2
+Homepage: https://www.gnu.org/software/diffutils/
+Depends: libiconv
+Essential: yes
+Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+Filename: dists/stable/main/binary-aarch64/diffutils_3.7-2_aarch64.deb
+Size: 145172
+MD5Sum: 3c8f459e56cb2270578d39c04cfd73bd
+SHA1: 1d4a65918c174fa01c37d5d6c8c0200af19dc12f
+SHA256: c163118a3e3d4e6ecd6c52dd0cba06d4e0fbb634027cce3d9b024167c6bd134b
+SHA512: 5571b2d948078e2672caec6f713d612efa2e044cc36f2456319c019f763e6a2b5bfceca02a88319e2029a9939f189580f156d21c71e3346aa5a33aed492af4d6
+
+Package: dpkg
+Architecture: aarch64
+Installed-Size: 928
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.19.7-9
+Homepage: https://packages.debian.org/dpkg
+Breaks: dpkg-dev
+Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, tar, xz-utils, zlib
+Essential: yes
+Replaces: dpkg-dev
+Description: Debian package management system
+Filename: dists/stable/main/binary-aarch64/dpkg_1.19.7-9_aarch64.deb
+Size: 200220
+MD5Sum: 764a88cd651d9e647a43352b54824b0d
+SHA1: 7499ffcee187afa1a1768c558d0cd792b594f6da
+SHA256: 44d3494b3f4b5008076664ef094b7c3e3d9da248440b2c017b32781ac2415f52
+SHA512: 905b1a70df0bac8e6cefae724902beeb3b90be74e0ea67c840aedc46927425eeb7f5348705bb2cc22e5a1e8930f42f9dd44b5b689b45b995fdee306bc7d2c00d
+
+Package: findutils
+Architecture: aarch64
+Installed-Size: 804
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.7.0
+Homepage: https://www.gnu.org/software/findutils/
+Depends: libandroid-support
+Essential: yes
+Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
+Filename: dists/stable/main/binary-aarch64/findutils_4.7.0_aarch64.deb
+Size: 233048
+MD5Sum: a4aaf18fce7c09d77494f3fa0f692828
+SHA1: f32d482d38bbf4ab7eed3584d52683e64bb2ed2e
+SHA256: 6375e45092bb09d6557e85aa618c8316600a90f4f987958907f1430116f52480
+SHA512: eb92ab420dd0ee0da1e55a28e027e65366787580941dd31539a305b8844f4e9533ed6693e5222300f863c7dd46b2e3fe156a764afcd840e88a1f30889bf64ff3
+
+Package: gawk-static
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.1-4
+Homepage: https://www.gnu.org/software/gawk/
+Depends: gawk (= 5.0.1-4)
+Description: Static libraries for gawk
+Filename: dists/stable/main/binary-aarch64/gawk-static_5.0.1-4_aarch64.deb
+Size: 22558
+MD5Sum: 6777263afc319060db1b61ffbac313b1
+SHA1: 44d9158b56dd3d40d7be98952f235357217fa78d
+SHA256: 565183ffb55f00e6fb269457d823b98081a2aa3f632981e672653c886f035a4f
+SHA512: a9351630a0c20066dcf657fad7668d07db97682749ef566517aaf5b31e15af614f49e1291113117c77077246f645a3fbb5ed145034c6fe5b903ddf27be0ff345
+
+Package: gawk
+Architecture: aarch64
+Installed-Size: 2868
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.1-4
+Homepage: https://www.gnu.org/software/gawk/
+Breaks: gawk-dev
+Depends: libandroid-support, libgmp, libmpfr, readline
+Essential: yes
+Replaces: gawk-dev
+Description: Programming language designed for text processing
+Filename: dists/stable/main/binary-aarch64/gawk_5.0.1-4_aarch64.deb
+Size: 684516
+MD5Sum: af4739a349b83b512e1171eab13b9f7b
+SHA1: fd4169d92c3180d8a441602d7d0465792e2b755b
+SHA256: 5907befb0caadac76ec0e56ade02d850a60ed2c27eaed56291e7c589e7b6ab65
+SHA512: 5e38cc13122e19938881724e46d5e295119fed315bf0ca7a39c70445d8078be30a108278cbc463efdbeef3575e5912a80a8f0791a10121757978f538d2fe034d
+
+Package: gdbm-static
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.1-3
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Depends: gdbm (= 1.18.1-3)
+Description: Static libraries for gdbm
+Filename: dists/stable/main/binary-aarch64/gdbm-static_1.18.1-3_aarch64.deb
+Size: 24758
+MD5Sum: 52882af9cff7d04ffb0f37bc9d84de2e
+SHA1: 5f20876ecc88a1d1d027274c385ad94229637672
+SHA256: fafd4b4e12479d3dafcff0be8abd1fba95743b476aae949839c22d7cb3c3e874
+SHA512: 86a2b7862a2c11ce498ce6186bd6a258c866a3331c4115cbc018a3ca6e5c6510cf6945f8925bf255b6d67cdcd32dd4ad8ee15210d076cbc7c63db5b9e05d3bfa
+
+Package: gdbm
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.1-3
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Breaks: gdbm-dev
+Depends: readline
+Replaces: gdbm-dev
+Description: Library of database functions that use extensible hashing
+Filename: dists/stable/main/binary-aarch64/gdbm_1.18.1-3_aarch64.deb
+Size: 102314
+MD5Sum: 837bd842f55b2a15c3183fb61e6a6261
+SHA1: cd6e3e31629bf1225a92e3e48979086158a83a02
+SHA256: 18d39700f91a2d7b1bbfc48923593d407ecb8a38e97bb6d02aa445244e3f9555
+SHA512: abbf370229f4734b8a367bafecc6e1371f9ab47721df06c293a8ec40b4d5d01821774cf7e7fc567477e54790acf432b80952b5c5df134ef6867f1567aa5c26b9
+
+Package: glib-bin
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.62.4-2
+Homepage: https://developer.gnome.org/glib/
+Depends: glib (= 2.62.4-2)
+Description: Programs for the GLib library
+Filename: dists/stable/main/binary-aarch64/glib-bin_2.62.4-2_aarch64.deb
+Size: 78490
+MD5Sum: 5e0aa930807864f7e1c8a8f639f0f146
+SHA1: ac9155ca21c8c3fadb14a1e5b35a5967980e7da5
+SHA256: 374bc6c42bfcc12ef7d336293648ae63c01771ad94ec42350492d89a6d983c92
+SHA512: 69b49d3c98653a91544f53c53b96e7143796fc4c21e4809f1cb8af2a26749ca3e30b038a0945166d32a229b1b39d7c255d77a45b3dcfda0b075703b1838c7a9d
+
+Package: glib
+Architecture: aarch64
+Installed-Size: 5436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.62.4-2
+Homepage: https://developer.gnome.org/glib/
+Breaks: glib-dev
+Depends: libffi, libiconv, pcre, libandroid-support, zlib
+Replaces: glib-dev
+Description: Library providing core building blocks for libraries and applications written in C
+Filename: dists/stable/main/binary-aarch64/glib_2.62.4-2_aarch64.deb
+Size: 1024860
+MD5Sum: 36f6044a3ea313f511bb719098cea58c
+SHA1: 52f82af81c2aef5602e01bb17f863ec6a4e912ba
+SHA256: 32b8261e69a896e94ad771c3989d6f7ce16a9b4c362353d706e295e751de347b
+SHA512: 7d03c6fbbb22d6a44aa23aaae9528873cccf6cb74233f76b4ca5044b0a4fac37ae2133df38c577c40f91c5544d2971cf3328f32514599ceeacb40158d51316bb
+
+Package: gnupg
+Architecture: aarch64
+Installed-Size: 4356
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.19
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
+Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Filename: dists/stable/main/binary-aarch64/gnupg_2.2.19_aarch64.deb
+Size: 1101910
+MD5Sum: eff3e52928ef5c37b15b843690241dd4
+SHA1: 34d8301799524bc4fe53f8c12972c8f2be41eab8
+SHA256: 14c795981a635ef7797831019616b5ee7df325285a0b0642243093adef736654
+SHA512: 5796ea651c843d2e444793d3367e77394f229aeeb338c35f3de8cd01ebe4b783da325eee4e58a4a517b6c1f24a919895daf621f123dfbb622cee23031f8ef81d
+
+Package: gnutls
+Architecture: aarch64
+Installed-Size: 1212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.12
+Homepage: https://www.gnutls.org/
+Depends: libgnutls (= 3.6.12)
+Description: Commandline utilities for interfacing with the gnutls library
+Filename: dists/stable/main/binary-aarch64/gnutls_3.6.12_aarch64.deb
+Size: 240676
+MD5Sum: 85806b7b5236a9c42c481b351df77b7d
+SHA1: 2ed27c5e15bc72816a0f535307c56f9064f3d001
+SHA256: b83123bea6437b9b72aa20d862b8ee3c2f6aa1fa6ed54212916d72d692cd745c
+SHA512: 121a1ee3d25079b6d82c23ae6c3f2b22b4a487ad4ca08271b99e63e85ea38f411dc753cdd0dbfd6cf85e9ec1042cec6384d3e4ef1068754fddee6138341a18ff
+
+Package: gpgv
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.19
+Homepage: https://www.gnupg.org/
+Depends: libbz2, libgcrypt, libgpg-error, zlib
+Description: GNU privacy guard - signature verification tool
+Filename: dists/stable/main/binary-aarch64/gpgv_2.2.19_aarch64.deb
+Size: 139720
+MD5Sum: 595c2ecf7064284ede828a41ed4fa636
+SHA1: 9bffeb14e7757c323e1e8ae2bec224d66f59ee6c
+SHA256: 56a15af9b4a84345b15f83a964e22681febee9424ed83815727f77a1368aa64e
+SHA512: 08751cc1bdfc8949124815937e77700cf3216c1e6e2c9464f8e30b7039f20be70ece9b96256cac61fbb9aa14d0914cf9641e3d7d85f670934bc849f3cf7835d9
+
+Package: grep
+Architecture: aarch64
+Installed-Size: 364
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4
+Homepage: https://www.gnu.org/software/grep/
+Depends: libandroid-support, pcre
+Essential: yes
+Description: Command which searches one or more input files for lines containing a match to a specified pattern
+Filename: dists/stable/main/binary-aarch64/grep_3.4_aarch64.deb
+Size: 110864
+MD5Sum: 96d5455f70fe431db1329978da4f69f0
+SHA1: 61e67931acf1cec2b5d845d4b9ab019897db0d15
+SHA256: daf9781418b5727730de8f7b11188f367f1e3d7881e6df6db1cbbbb3935d4c61
+SHA512: 1dac0629b8bb7b8368403c0055e787dfdc045b24030643b74579f27aee711986a66f0110444e53f108ecbeb58cbcb9bb23366c6a003e19a6f8b95e097cc57768
+
+Package: gzip
+Architecture: aarch64
+Installed-Size: 320
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10-2
+Homepage: https://www.gnu.org/software/gzip/
+Essential: yes
+Description: Standard GNU file compression utilities
+Filename: dists/stable/main/binary-aarch64/gzip_1.10-2_aarch64.deb
+Size: 79186
+MD5Sum: 48028bc7b04192ec910e1fcb5206a02b
+SHA1: 4b698dea1c5808e9a869095c9596e142ae202795
+SHA256: 02b8ba750b78712fd216cafe21d46544078b62c081a3e09900e53b278de8c4a4
+SHA512: 042e776eef0a7a6a71727118869bdddea73207919d1c7e61e78ad6c09297739d804a4476b0b5659fd6627f8e06f6e76516c6f93245e3bf0d0b722886286bc68c
+
+Package: iconv
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16-3
+Homepage: https://www.gnu.org/software/libiconv/
+Depends: libiconv (= 1.16-3)
+Description: Utility converting between different character encodings
+Filename: dists/stable/main/binary-aarch64/iconv_1.16-3_aarch64.deb
+Size: 8250
+MD5Sum: a121d81b2a52ab32758de8a894b4082e
+SHA1: f15db77b1b77f660b638a92656d4b68befa815d0
+SHA256: 32212e2742aaedf9b44df9f35db35927fe9a1c578af703b631de41433e2fc578
+SHA512: c24aecc24d84af86d23775712211497dc9cc6a6fff025c4269e44d91cc7a8d83b45abba802ac40641f234d9e404e6657657696083cc0edcdd2601b79d10c8397
+
+Package: less
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 551-1
+Homepage: http://www.greenwoodsoftware.com/less/
+Depends: ncurses
+Essential: yes
+Description: Terminal pager program used to view the contents of a text file one screen at a time
+Filename: dists/stable/main/binary-aarch64/less_551-1_aarch64.deb
+Size: 82534
+MD5Sum: ee0f02a541fbfe2346a09af2a2b38259
+SHA1: bc2201c6fb53fe91c7d0d25ed83a053dc3456bc1
+SHA256: 8142d7bc322496bf1efa0d9748844cd10068617d45b87dc5c1c03284c921bb31
+SHA512: 65cebd034415c9832260cfb38a3301d0345638575de6288da732d92239890f5767421ed096dca4ba1a85f9b520aee93059403306a1f8403edb586c858469a2a1
+
+Package: libandroid-glob-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6
+Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
+Depends: libandroid-glob (= 0.6)
+Description: Static libraries for libandroid-glob
+Filename: dists/stable/main/binary-aarch64/libandroid-glob-static_0.6_aarch64.deb
+Size: 4396
+MD5Sum: 80f62e287e12ed00f4acb6218f4c93f9
+SHA1: 29c76c80b941ca87edfea9743e0daa008dac4c58
+SHA256: 589623d91b3b2f3b0e114700fbaa4530d809f461b180f478beeba41292e4c478
+SHA512: c046343b18c9ee9ce915b84dd10872b46f629401cf673c2fd96fd0493fa7ca5af04cb1bbe9807fc8817cf1091fd15274cdead7617c37500c8a3fafb62e658664
+
+Package: libandroid-glob
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.6
+Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
+Breaks: libandroid-glob-dev
+Replaces: libandroid-glob-dev
+Description: Shared library for the glob(3) system function
+Filename: dists/stable/main/binary-aarch64/libandroid-glob_0.6_aarch64.deb
+Size: 6770
+MD5Sum: 529cf3fb38206a496ed225dd878fab4e
+SHA1: d1b6496e1cb903af002cc61a1d186a83a29805c5
+SHA256: c8b9e99dbeaf3209891ff2e69ae9f1bd6a3ef54cafa60b271439b2b50a469cf4
+SHA512: dd0282bff41aeba45c5978dabb9a0fa6b44ad306c29fb6b3f9e7b8d643f21ee13435f4a972a097f75cf0e0334dca23cde69309beef2b1e91f5505dce8f531bd3
+
+Package: libandroid-support-static
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 25-2
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support (= 25-2)
+Description: Static libraries for libandroid-support
+Filename: dists/stable/main/binary-aarch64/libandroid-support-static_25-2_aarch64.deb
+Size: 8374
+MD5Sum: 86ae9584076e8d3301e38e07a9837e0a
+SHA1: 94000742b738a2c7444ee2df368ab7ae1e0155dd
+SHA256: e5c341aa4fb0689caced870ca2d6e453d813fdbba0c0d6d041006a4d60508120
+SHA512: e54a8c846d73039e793ad3cfa93c8fd1415a5cca06dab869d1b6696a26b3548ee0b9c393d24ba22af87583d41dc3094da54dc6821c8645064fcb2fe83b340650
+
+Package: libandroid-support
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: Fredrik Fornwall @fornwall
+Version: 25-2
+Homepage: https://github.com/termux/libandroid-support
+Pre-Depends: dpkg (>= 1.19.4-3)
+Essential: yes
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Filename: dists/stable/main/binary-aarch64/libandroid-support_25-2_aarch64.deb
+Size: 7680
+MD5Sum: 9ceb613cf42e4a119ef75752be774afb
+SHA1: 8da4388f18c9964c90a80c6dc0f7edc99e96c1bf
+SHA256: 3fa510c8b1bca6066054277c4af7529f8e954e3cccff688f60a6655103219471
+SHA512: a2d7274f51d73f599e83694678d7bece79596e48c3dcb2c8955630325db4d943f16cb07742ab87d19f9eccebcbe9550761d893dff981ff397a7af1a5870d1b72
+
+Package: libassuan-static
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.5.3-1
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Depends: libassuan (= 2.5.3-1)
+Description: Static libraries for libassuan
+Filename: dists/stable/main/binary-aarch64/libassuan-static_2.5.3-1_aarch64.deb
+Size: 30544
+MD5Sum: 77d10e770b890567edfef5b8fb3b584f
+SHA1: 67c75da33f368f4c2d70deee76a7f7caf3f1c2b6
+SHA256: 356d76d83dc048f49b51d55e40d5e2f4e5318f67f216277b7ef92d5814f80e0c
+SHA512: 8d1967434179b9e810653a2722fc7f7be6b916e8abefa2e08faacf4ad42b565dbdf22704c802c14c918457f969873c93bf848b3aa802723ca4abdeddaf2496f2
+
+Package: libassuan
+Architecture: aarch64
+Installed-Size: 324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.5.3-1
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Breaks: libassuan-dev
+Depends: libgpg-error
+Replaces: libassuan-dev
+Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
+Filename: dists/stable/main/binary-aarch64/libassuan_2.5.3-1_aarch64.deb
+Size: 68928
+MD5Sum: 495e29882a5322f0925fca8e7a601c90
+SHA1: 50ea54f0a47a8efd123df9387903b67eef00b137
+SHA256: efe743b858bb56cc16d860cea7a9a5e780d58258e1ad3aea5665cb0e23e5ac13
+SHA512: 1945d6a16cfde6dd7e589f9da71f461a85d94332c3b075c3052def6130eb570a7a088a8f0d5c71958bae874532032f4f022d16ea019bbe008a3ed710d7d53713
+
+Package: libbz2
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.8-5
+Homepage: http://www.bzip.org/
+Breaks: libbz2-dev
+Essential: yes
+Replaces: libbz2-dev
+Description: BZ2 format compression library
+Filename: dists/stable/main/binary-aarch64/libbz2_1.0.8-5_aarch64.deb
+Size: 25812
+MD5Sum: 94cbc6b721c4ed61b81716d3bc76e3fd
+SHA1: 0e8790d753d964bf0fef5389a18edc8d1a4dffba
+SHA256: 53e063781aced6da7f302e175c85504d5933d8639175e3887057be85af1f39ee
+SHA512: 7358998c212cc4133e94dc84b21b53f0e0efa324d19ea97849995c2da5886c6a69e681bd9b1b9acd9179bd85b577fbb8dd97fa17392e8d1292c5284f82c8dadf
+
+Package: libc++
+Architecture: aarch64
+Installed-Size: 956
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20
+Homepage: https://libcxx.llvm.org/
+Essential: yes
+Description: C++ Standard Library
+Filename: dists/stable/main/binary-aarch64/libc++_20_aarch64.deb
+Size: 199466
+MD5Sum: ff91b4bb977e654d57526bb57a278b4d
+SHA1: c804b90f4a46cfedf1b445e57eff54618a5cfdd3
+SHA256: 46f8497092ce34176cff4835f301bfa1c03c288ceaedc96ae97ef5d3c7e0feb4
+SHA512: e09c08f74d47667d0b3aeb44337a5e43a4089bd4b8bf8b1c29f310e1982c679c2ef67450185fdbf6a4554423b19749a40c25b70677ac7f2213446ea57dabdb85
+
+Package: libcrypt
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2-2
+Homepage: http://michael.dipperstein.com/crypt/
+Breaks: libcrypt-dev
+Depends: openssl
+Replaces: libcrypt-dev
+Description: A crypt(3) implementation
+Filename: dists/stable/main/binary-aarch64/libcrypt_0.2-2_aarch64.deb
+Size: 8088
+MD5Sum: d41b280080434f34a72ca07a4afe9e94
+SHA1: 785860df8d7c44b322e4c1e0f7599a5fdb6ab825
+SHA256: 84f11c014663b41823bb8670f6659f5a1487e60e244c5f4dbb818d64802b2d87
+SHA512: a2de47192a23d7c96683455bcc42fe4adb97c7f5f2d456e401d0500ec29acf1f4e0115f48f9dae5090af2508d1b80ab4784fc7125855ea339075a6daf0c1a514
+
+Package: libcurl-static
+Architecture: aarch64
+Installed-Size: 904
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.68.0
+Homepage: https://curl.haxx.se/
+Depends: libcurl (= 7.68.0)
+Description: Static libraries for libcurl
+Filename: dists/stable/main/binary-aarch64/libcurl-static_7.68.0_aarch64.deb
+Size: 201476
+MD5Sum: 8f12f6f840aad713513c5322d896f74a
+SHA1: ae6f5b1d60fd63dd3e071b063c32ac8e9a16fc71
+SHA256: 033052c139ca2de51e2a38c69b3e752520b076557bf61613de082d5b434efc2c
+SHA512: c1300b55ab687888e18ff72f71ef0b50c6301eadd5efecee41608cb8c8294de3773ffb45502440c9dc8da1c88c07c6d7804c322b51b2350f5df8f9cc372f7a33
+
+Package: libcurl
+Architecture: aarch64
+Installed-Size: 2512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.68.0
+Homepage: https://curl.haxx.se/
+Breaks: libcurl-dev
+Depends: libnghttp2, openssl (>= 1.1.1), zlib
+Essential: yes
+Conflicts: apt (<< 1.4.8-8)
+Replaces: libcurl-dev
+Description: Easy-to-use client-side URL transfer library
+Filename: dists/stable/main/binary-aarch64/libcurl_7.68.0_aarch64.deb
+Size: 807782
+MD5Sum: e95fc1528c42b008d8ff8390c4c321e3
+SHA1: 59b7f16eb3440d09a815478e6f3c2fdfb3a05e1e
+SHA256: 7e593438a38d70201a9aff72d95b8a66bb79517d8020f08d10ba17b05ac1932e
+SHA512: 4ef808062474223f34e05924c54af85cda68ecede4dfab966a0b7a1fea765ab346662e2324265662794d04549ee58e03b19c3595a1946b21154722079569ebf6
+
+Package: libdb-static
+Architecture: aarch64
+Installed-Size: 7236
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 18.1.32-3
+Homepage: https://www.oracle.com/database/berkeley-db
+Depends: libdb (= 18.1.32-3)
+Description: Static libraries for libdb
+Filename: dists/stable/main/binary-aarch64/libdb-static_18.1.32-3_aarch64.deb
+Size: 434188
+MD5Sum: 6ea730d50dd09759d60972b95459052b
+SHA1: f6b7fb5166fff3644df0d4768a0f2a900e9acd5a
+SHA256: 82c073b7e6326345fb45d820516f7c45833de2a09e3b35e4ceb1c9abe98c4e51
+SHA512: d8161d2742af6b407933adb32810609106a04845a6a9d97e5ce8d38c6840bf4e96dcc8da581a7944016753c860276dd988aca7369c0fb3787503b9cdbf9dd1e9
+
+Package: libdb
+Architecture: aarch64
+Installed-Size: 2132
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 18.1.32-3
+Homepage: https://www.oracle.com/database/berkeley-db
+Breaks: libdb-dev
+Replaces: libdb-dev
+Description: The Berkeley DB embedded database system (library)
+Filename: dists/stable/main/binary-aarch64/libdb_18.1.32-3_aarch64.deb
+Size: 462014
+MD5Sum: d9d490b697a3b3440f892716d2044534
+SHA1: c63e42f7ef285ef586dfa0ce007dda9fab70d086
+SHA256: 73947e996f89f89258e7412d853405dad07c0b4e2d092fb9969a7826cdf06aa7
+SHA512: 2d9eab62699138fe6665e55a1bb052197d355ee7160ef528eb3f62ff31ace7b92b05488e1736d323152fb212f7ec1894bfc66e8535d6837d35ba99c029762f92
+
+Package: libevent
+Architecture: aarch64
+Installed-Size: 1004
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.11-1
+Homepage: https://libevent.org/
+Breaks: libevent-dev
+Replaces: libevent-dev
+Description: Library that provides asynchronous event notification
+Filename: dists/stable/main/binary-aarch64/libevent_2.1.11-1_aarch64.deb
+Size: 170916
+MD5Sum: c756c7b2f2c4c236ee081d33b5a0241e
+SHA1: d1411264250336cd39762a568f2a7cff24358c19
+SHA256: ad906be3c5f008c7afe96d910f545953f8aadee671091128b3caef15641f63d4
+SHA512: 7aac81fdd28fbed0e38a8ab4722c0d57548763c21fbaedb77ae4de4732321850c73157b035e4aa83f2c06ea6db78edc45ec361662bb6acfaf1584ff208806098
+
+Package: libffi-static
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Homepage: https://sourceware.org/libffi/
+Depends: libffi (= 3.3)
+Description: Static libraries for libffi
+Filename: dists/stable/main/binary-aarch64/libffi-static_3.3_aarch64.deb
+Size: 13994
+MD5Sum: 57227a52f77aea79bab3074411cb9d9b
+SHA1: 90aa58245588a6bf03f97d4b48583cfc8940886d
+SHA256: 03aca85a6925fe46baa4ee3e5e4bd1733c816ef8d616be7ca861692202209f29
+SHA512: 7283bdd21d78229b04b8e44c8b369f216280a10b4744f434a280dadd508b0424670e3f7135a36e0aac3f85af273faede2945d7b8093539f20714966f2e0ffa59
+
+Package: libffi
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Homepage: https://sourceware.org/libffi/
+Breaks: libffi-dev
+Replaces: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Filename: dists/stable/main/binary-aarch64/libffi_3.3_aarch64.deb
+Size: 28444
+MD5Sum: 966499dbefe539d32c3e12cc69afd91b
+SHA1: a0c28c1c25f9978fccf47409b1e11c878a26d072
+SHA256: a766a8cffe0d7283bcbc8d3b22e1d8b35b9e16ec3219dcca13018d38eaae9fb5
+SHA512: 7a4237ba852d4174024752a033496c6bc7638c204da5ba7d1378ca593f24a53579e68f3273ff0512f53683d14273450f1d5acd2d1a93dc8c155157108495dd96
+
+Package: libgcrypt-static
+Architecture: aarch64
+Installed-Size: 1316
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.5-1
+Homepage: https://www.gnu.org/software/libgcrypt/
+Depends: libgcrypt (= 1.8.5-1)
+Description: Static libraries for libgcrypt
+Filename: dists/stable/main/binary-aarch64/libgcrypt-static_1.8.5-1_aarch64.deb
+Size: 327582
+MD5Sum: 0aca9b2a59546de811a63394e0fa89c4
+SHA1: 0fe326b04ab9a0fd8a25cc3008028383f90b55ca
+SHA256: c72dcb9e55bc42a96c59fc192e0af3e6ca70cb35267960315d142f11b221d883
+SHA512: ad811d834cd1202e0560ad8467a9513e20ca1b238ef426f88350c3da0818ef45b5d063f6facc69fd3f2335c59228167ce008cb051d9efaff74fb3e669e59e692
+
+Package: libgcrypt
+Architecture: aarch64
+Installed-Size: 1172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.5-1
+Homepage: https://www.gnu.org/software/libgcrypt/
+Breaks: libgcrypt-dev
+Depends: libgpg-error
+Replaces: libgcrypt-dev
+Description: General purpose cryptographic library based on the code from GnuPG
+Filename: dists/stable/main/binary-aarch64/libgcrypt_1.8.5-1_aarch64.deb
+Size: 360298
+MD5Sum: 873f1010aa3d0a3f7b472cb85f87f9d3
+SHA1: fe47cb544d324395ec8a74d19d8da8def0f766cf
+SHA256: 36ad99190a7ff8c74a9279c1ad94637492600d37b80ab92fd788d14ee6b0131b
+SHA512: 6578fa57e69bbda82355a46d8cad2c057d4747a65d47ebb776918cd7f230376d22449bf16177337d2b082c0da342ba74382ffd7a3194962c4b846ccd3a408b5a
+
+Package: libgmp-static
+Architecture: aarch64
+Installed-Size: 1292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Homepage: https://gmplib.org/
+Depends: libgmp (= 6.2.0)
+Description: Static libraries for libgmp
+Filename: dists/stable/main/binary-aarch64/libgmp-static_6.2.0_aarch64.deb
+Size: 226446
+MD5Sum: a64451948ecbb4bc85aa4ac1ec478fb5
+SHA1: 0edfcd2620ac692ad42db4a6b9772cac30b05573
+SHA256: e6a1b7d70e3d758a8fbd4e95674da5cb8e4a4809ed87083bd69455dd557eb383
+SHA512: 59fb3fb8ea11f3a57e751aa259062b818e26c05a25a26770b40d26b6faf20e0a5b12ccafa05dcbc40f9ec9d3ba273dd82ce04e0e32c32957e7370a4e316201a8
+
+Package: libgmp
+Architecture: aarch64
+Installed-Size: 1200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.2.0
+Homepage: https://gmplib.org/
+Breaks: libgmp-dev
+Replaces: libgmp-dev
+Description: Library for arbitrary precision arithmetic
+Filename: dists/stable/main/binary-aarch64/libgmp_6.2.0_aarch64.deb
+Size: 316082
+MD5Sum: ccbe0245c486fd056bd46d6d32dfd854
+SHA1: f1b4f44461f3a5cd4c748d72693a0452f626fd2b
+SHA256: 6c51afcf9a5387a7b059671138d89e1ae7d7ba0e8170292fcdf1940e8da01f42
+SHA512: 8014cb2a1bf6e53200341cdfdf6cfa3df1a29a3f993fcab8c11c152757f3dfebbf953cd40b4318888b8ef5b3516cc1fc6fdca81e5923e6121b7ef329e7af5d90
+
+Package: libgnutls-static
+Architecture: aarch64
+Installed-Size: 3324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.12
+Homepage: https://www.gnutls.org/
+Depends: libgnutls (= 3.6.12)
+Description: Static libraries for libgnutls
+Filename: dists/stable/main/binary-aarch64/libgnutls-static_3.6.12_aarch64.deb
+Size: 662356
+MD5Sum: 6943d59b48238a795b1a4c0498e71e04
+SHA1: d052b4b2e39443dd722c5156a59a5909479bad63
+SHA256: a81db3df7c2d4af1e105ebb296304eb7164a214a184f6d8a6c352291d41847c5
+SHA512: 7835c2a9084218a64cd8870007c2c29b37b4fdd6c1abf9e3be5af0a716e72a659f5679176ceaa166f4fef0dcaf64aa84537289fe4b94586ed49e3ba39ef64489
+
+Package: libgnutls
+Architecture: aarch64
+Installed-Size: 8848
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.12
+Homepage: https://www.gnutls.org/
+Breaks: libgnutls-dev
+Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
+Replaces: libgnutls-dev
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Filename: dists/stable/main/binary-aarch64/libgnutls_3.6.12_aarch64.deb
+Size: 1906404
+MD5Sum: 7c6992d13d9fd5287c56524b4f80d76c
+SHA1: 5b9742a569eb0fd0bc50be3bec00bf9621c76ae3
+SHA256: e6e75b9cfbbad800d20eeb19ee58a224f3cb22e4c62f2e5b3e44a06e99a72bf2
+SHA512: ce7fabb0b140e89a965ed0191617637fd3e39e77f4cc9f821ce877ca4eaed89e462287fbe432c388d04e03b78c1fc1d92ec818a8110e450c55f4a8aab37852fe
+
+Package: libgpg-error-static
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.37
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Depends: libgpg-error (= 1.37)
+Description: Static libraries for libgpg-error
+Filename: dists/stable/main/binary-aarch64/libgpg-error-static_1.37_aarch64.deb
+Size: 48936
+MD5Sum: 51a220d409ea3d5c3583ae71cfcf03f1
+SHA1: fd0501fc0a995102040efa2c55479580169bfeaa
+SHA256: 860379f1e8138c50f725c019ce46cc4fc8f0a483fc0981462695f52120221bbb
+SHA512: c5505e41b5397093601c2da7883a74b35896e5a69b8bf99b45f084f16f0dba024680a2f7707c3d8b49e56a10344ee55947179fc9967cd7543e96c8ba6e0017bb
+
+Package: libgpg-error
+Architecture: aarch64
+Installed-Size: 516
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.37
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Breaks: libgpg-error-dev
+Replaces: libgpg-error-dev
+Description: Small library that defines common error values for all GnuPG components
+Filename: dists/stable/main/binary-aarch64/libgpg-error_1.37_aarch64.deb
+Size: 94260
+MD5Sum: fef7c78d987204fe7f9e8ec66f1f0ea1
+SHA1: 927201eafc15b54831539bd10e1fa3afc24e716c
+SHA256: 6628b6576738ff2509bf2e15a33b4855b4b808cd7c78bc5694fa0ea8c0641aa8
+SHA512: 8283414b3d8cbdba0e15b262d4cb6d342dcbf0bb5bb4d9f5cf28ca93ac09aaeb653a41d13221bf9410798281584955de16d12220b02bf78b6cbbd201d2aef2b9
+
+Package: libiconv-static
+Architecture: aarch64
+Installed-Size: 1124
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16-3
+Homepage: https://www.gnu.org/software/libiconv/
+Depends: libiconv (= 1.16-3)
+Description: Static libraries for libiconv
+Filename: dists/stable/main/binary-aarch64/libiconv-static_1.16-3_aarch64.deb
+Size: 542928
+MD5Sum: e0fb14b97389080a260da0b4a8367276
+SHA1: 5450b78e5329bf5c167cb70f3bcca3a8ab6fd483
+SHA256: a789bbd3e5c89c0d624b108dfa9c28edd0e7d9be5d420652b01c7d977333e687
+SHA512: be7249dc079dfd1e2c1b75c19a9308d44e8e2755a7b12f7d6c1fa8d417702f399344437fdbd2e1083093c5dbea8fde37286d35f3fa2f04ce1dfeee6be3251f08
+
+Package: libiconv
+Architecture: aarch64
+Installed-Size: 1140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.16-3
+Homepage: https://www.gnu.org/software/libiconv/
+Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Description: An implementation of iconv()
+Filename: dists/stable/main/binary-aarch64/libiconv_1.16-3_aarch64.deb
+Size: 548348
+MD5Sum: 510b54f3d96cc01c15520c96778930cc
+SHA1: 3d2e3a68f37d6efa666de59d22050fe5fdb322aa
+SHA256: 73b5ae5a40ee4833f6b476c8dbb17d33b52284271978db0634d01a6e4fd4d85c
+SHA512: 44f0d3a6be4ece682ddbe375710c21ab5b0265a60f5b1d5595a32a529fd99848d7cddc850a9ff3d2377e43e1cc12cf93dbdd65f7aa81db0aeb28a684ed09809d
+
+Package: libidn2-static
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: lokesh @hax4us
+Version: 2.3.0
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Depends: libidn2 (= 2.3.0)
+Description: Static libraries for libidn2
+Filename: dists/stable/main/binary-aarch64/libidn2-static_2.3.0_aarch64.deb
+Size: 44336
+MD5Sum: 78f94f3a929754c403aadfef948fb675
+SHA1: a94e2b42006e3373b2e2c3d322f9ff847002ec45
+SHA256: 4f7ab2fec47b758c91706174f55a98f37ab20120303b8907efd6ad78c3866a3a
+SHA512: 257456a9569585a16f9ac3b1ae7b8cb3a028c157ae0a94364d82260aea2c1fd23be990f8b3aec846526874ba0b000800b6a72a9c04b7c98ce6935355f484100e
+
+Package: libidn2
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: lokesh @hax4us
+Version: 2.3.0
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Breaks: libidn2-dev
+Depends: libunistring, libandroid-support
+Replaces: libidn2-dev
+Description: Free software implementation of IDNA2008, Punycode and TR46
+Filename: dists/stable/main/binary-aarch64/libidn2_2.3.0_aarch64.deb
+Size: 82796
+MD5Sum: 37c87560e79029e53b0c2a9d686f25ba
+SHA1: 69125e1196f15aa21574e70280aa7eb034d88716
+SHA256: 5f46219b635aae3eef2f13e48cd79bbd58149bbe2689e425875a99a0c4713d80
+SHA512: 53a80c4b4e12bd2da13c582c392af58144d8160076bbccce968dd3445902425c471a3ac635816979980c78b85110bb9b842b6bd29e38a816ccbdab87644cb50b
+
+Package: libjansson-static
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12-1
+Homepage: http://www.digip.org/jansson/
+Depends: libjansson (= 2.12-1)
+Description: Static libraries for libjansson
+Filename: dists/stable/main/binary-aarch64/libjansson-static_2.12-1_aarch64.deb
+Size: 22590
+MD5Sum: dfab0cfae98b6024b0db5f10da683900
+SHA1: 21ba13345b37440cc5d98d0277bb3d670130b4a7
+SHA256: 26b08649351d8a4c84b7d90b02647dd8c18f30fdd8c355f505818b344e284c87
+SHA512: 3809d255644eb6477ece3689401bac53d0572e14d913a862dde5d652f42611e880323a54fcef7498e65696ef16df96e3221dbf5648f09ee74faf7fb1d40f4bfd
+
+Package: libjansson
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12-1
+Homepage: http://www.digip.org/jansson/
+Breaks: libjansson-dev
+Replaces: libjansson-dev
+Description: C library for encoding, decoding and manipulating JSON data
+Filename: dists/stable/main/binary-aarch64/libjansson_2.12-1_aarch64.deb
+Size: 21100
+MD5Sum: 70757a5f282c2f88630bdadb4766bf8a
+SHA1: c00faaa1c5156a3b9ecb42d8b95d77e32d88bf54
+SHA256: 43865760f0c10b78ccf6540eb8936c2c704bc1bf49b0dd0f297b4177a0785ee9
+SHA512: e287bd500455fa41b8d5f143997e127adb364d62af07e0177e021342cd49d5d7b094787d3c46d782d08eb26636b27644f988e9a1cbec958a4cbfdf2685ab2d9a
+
+Package: libksba-static
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.5-2
+Homepage: https://gnupg.org/related_software/libksba/
+Depends: libksba (= 1.3.5-2)
+Description: Static libraries for libksba
+Filename: dists/stable/main/binary-aarch64/libksba-static_1.3.5-2_aarch64.deb
+Size: 79004
+MD5Sum: e30a97c745fe2844d5406d5490973f2f
+SHA1: a8a6b64e0c2e3f6d82c4836010c4d0edcace4dba
+SHA256: 96d6335b248c714c27a49d715880d04241f0e9085b5a9ce35339ead671fd9074
+SHA512: 16c31bd132d86db531b46526310144a02728007fac2964dbfbf4429983cfecb3343f4dd15eb41efae431294ca1dbeae434e46d9462918fdfaa2db8169a1efd77
+
+Package: libksba
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.5-2
+Homepage: https://gnupg.org/related_software/libksba/
+Breaks: libksba-dev
+Depends: libgpg-error
+Replaces: libksba-dev
+Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
+Filename: dists/stable/main/binary-aarch64/libksba_1.3.5-2_aarch64.deb
+Size: 91666
+MD5Sum: b6c9557fb096bc907d2c22958cb4b83e
+SHA1: 46390c28a28dc5ee65534037408b3a6652fc1a7f
+SHA256: fac03c6df02b31eb3b4f59d1139ca0be99daf7f99b988ec87efa889d373b03c9
+SHA512: e997e939e9a27e45acf9faf0de7698fef96984ad1adae36c69a13db5a8a8c79dbdfe3aabdabd1e4350e2ec9a0bd1346a6f16e51d758b95e038c23b2f73825341
+
+Package: liblzma-static
+Architecture: aarch64
+Installed-Size: 284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.4-7
+Homepage: https://tukaani.org/xz/
+Depends: liblzma (= 5.2.4-7)
+Description: Static libraries for liblzma
+Filename: dists/stable/main/binary-aarch64/liblzma-static_5.2.4-7_aarch64.deb
+Size: 71152
+MD5Sum: e72c931632d24e7e2705a3b48e657de8
+SHA1: 93f72d22441491465eeda553a9491814d1e779de
+SHA256: f2966a6935f0530dca8ed3cf3846f311925559add2dadfdb87c9b131d13a5338
+SHA512: 8e3aade28b4032a73921716888b349d4faa7337a566f0121c0125dc1eecc1a16167c7386c4055d869cacfa9c449dd3735380bc19687b71f28c69475c84f2c73f
+
+Package: liblzma
+Architecture: aarch64
+Installed-Size: 596
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.4-7
+Homepage: https://tukaani.org/xz/
+Breaks: liblzma-dev
+Essential: yes
+Replaces: liblzma-dev
+Description: XZ-format compression library
+Filename: dists/stable/main/binary-aarch64/liblzma_5.2.4-7_aarch64.deb
+Size: 133744
+MD5Sum: 28dcd4a888e312ffe4ce520f6ca77890
+SHA1: bc8e61010c6aa62df9cd81c109ab86b2c4fea979
+SHA256: 6ad69eb2cbaff89fc08879e8d9e01237bce2338e328134ec700a22664c5b6a79
+SHA512: b46bb357de9a597318cf936315e3061355f942bf968fbc8cb1cee604268dce1025bebc8585382b65b36ceba2a4e89b6d4eebf8855b1d1f726e8609057b6790bb
+
+Package: libmpfr-static
+Architecture: aarch64
+Installed-Size: 1016
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.0.2-2
+Homepage: https://www.mpfr.org/
+Depends: libmpfr (= 4.0.2-2)
+Description: Static libraries for libmpfr
+Filename: dists/stable/main/binary-aarch64/libmpfr-static_4.0.2-2_aarch64.deb
+Size: 190066
+MD5Sum: fdc3c2087385865203f43802c902b7b1
+SHA1: 29b92c0992b6777ff0853fc32f4af8113c42e63b
+SHA256: 6ee98e06cf86d5f771d3506071135d6a71a9d2af8b875642cdd75b96d4782bfe
+SHA512: d996a4325964e0fbaf139c29a627a353c04f1c22d6b798bc4d714cc1ef822a94692bf68b59dcc30bba10ecc9d41c38751289dd2186c973a6cb8f092eef702b9d
+
+Package: libmpfr
+Architecture: aarch64
+Installed-Size: 912
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.0.2-2
+Homepage: https://www.mpfr.org/
+Breaks: libmpfr-dev
+Depends: libgmp
+Replaces: libmpfr-dev
+Description: C library for multiple-precision floating-point computations with correct rounding
+Filename: dists/stable/main/binary-aarch64/libmpfr_4.0.2-2_aarch64.deb
+Size: 247310
+MD5Sum: 173f6d958c4b9bcc9414e02331a6905d
+SHA1: ea52f4a355a8a7483cd1a3e22051c6ca529bace9
+SHA256: c608eb8692758e2301cc1249422a5ff3c0705ddf11f263d6e2058b5c0bab17c3
+SHA512: 86341cfa4e603e3c4c821b667bfb096331d70b3bf79163856bca7f6832e59d3f73c1cf3632b5bba2b414638b3770ce6d644381d44332ca95495c4f22c51ae69e
+
+Package: libnettle-static
+Architecture: aarch64
+Installed-Size: 2644
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.1-2
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Depends: libnettle (= 3.5.1-2)
+Description: Static libraries for libnettle
+Filename: dists/stable/main/binary-aarch64/libnettle-static_3.5.1-2_aarch64.deb
+Size: 447880
+MD5Sum: 9de5c358088c659b4d2e2a102fec5752
+SHA1: 344b2f652c2d97ecae3d97ebcb844bb3a35384ca
+SHA256: 7428678fe5ca78b095bb2238d6a153c66b54f3e152a498446eff1d91b7135117
+SHA512: a052b893e64201479acc77a79119b588161fdfae38a9edecb318ebe46698c4a8f921723cb40dfb66cc95eb44e077a2d3b9a0724d7a38657b44afae9a2645819b
+
+Package: libnettle
+Architecture: aarch64
+Installed-Size: 1104
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.1-2
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Breaks: libnettle-dev
+Depends: libgmp
+Replaces: libnettle-dev
+Description: Cryptographic library that is designed to fit easily in more or less any context
+Filename: dists/stable/main/binary-aarch64/libnettle_3.5.1-2_aarch64.deb
+Size: 291332
+MD5Sum: 0d86b984421b8e63ed36f12a93174a2c
+SHA1: 02f511592393cdd7a7a42e154c88a081cae1a827
+SHA256: 56a1bc002cf42648f8a19ab207212cb041aa7dc1333ea99a3bcd38156adb1cb1
+SHA512: 075654b653edbc0730886ed0f1fdec98ac6ec7a18511a5cfc52d1df13437ff3cc579e5000ba71c071913c769b995faf322d47eade6711cc0230dede7cd075721
+
+Package: libnghttp2-static
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.40.0
+Homepage: https://nghttp2.org/
+Depends: libnghttp2 (= 1.40.0)
+Description: Static libraries for libnghttp2
+Filename: dists/stable/main/binary-aarch64/libnghttp2-static_1.40.0_aarch64.deb
+Size: 54690
+MD5Sum: 791ad0080e48b9cd3902c62a27a1ebab
+SHA1: 99ca918b72d4a572d327bb73175c984e4f584ec3
+SHA256: 3012c6d609d7cef02a62c6601fe46c18d57b908b5c0274da8a74c6d92447df10
+SHA512: 004917bdbb6ff9fdd9260d2d41e9246b814a8d8715a7685ea205541ec42ca7dc5313a9abd6a988e01dd8ace195edd28ff90cb7c44605e66eaaae2e3da4f412b7
+
+Package: libnghttp2
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.40.0
+Homepage: https://nghttp2.org/
+Breaks: libnghttp2-dev
+Replaces: libnghttp2-dev
+Description: nghttp HTTP 2.0 library
+Filename: dists/stable/main/binary-aarch64/libnghttp2_1.40.0_aarch64.deb
+Size: 85068
+MD5Sum: 3c18867f7d86b4aef9540a21886455db
+SHA1: 68c153b7dac3db3dce53279e15e22484b3f29ac1
+SHA256: cbc42fc46bbe79fe662641c76e0457ce979927c010f7895f21ee3b148f5a0bfd
+SHA512: c8ccd825cfa47220a418b6868f5a0576c4dbd945df32bfab03c7c8f70aa8ba00e358257ac4f96e39d53aa6ec45b16d3668d60e6a2cc944534ec09daaa582250b
+
+Package: libnpth-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6-1
+Homepage: https://www.gnupg.org/related_software/npth/
+Depends: libnpth (= 1.6-1)
+Description: Static libraries for libnpth
+Filename: dists/stable/main/binary-aarch64/libnpth-static_1.6-1_aarch64.deb
+Size: 4404
+MD5Sum: 660e142b7c623161eb5722413ec737ec
+SHA1: 241616ff7ad21d89e8b5214fe2abd2cf3eb5900c
+SHA256: d562295610a7a8cd0a8d996e6142b393f1adf79d5850971368f60faa898a6407
+SHA512: f95c90ec0533e56ebf1be7f622a5b7f73d2040f3552385958edfbd531d8f4554429e54cd38f5dc9f726bdf21831ddc7c00885fe5858e0c52b5bc902c027291a8
+
+Package: libnpth
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6-1
+Homepage: https://www.gnupg.org/related_software/npth/
+Breaks: libnpth-dev
+Replaces: libnpth-dev
+Description: New GNU Portable Threads Library
+Filename: dists/stable/main/binary-aarch64/libnpth_1.6-1_aarch64.deb
+Size: 10782
+MD5Sum: fd83712cdc591d7de1152f9c6956708a
+SHA1: 00a479844409fc107acb5cdf2a15db9db94693ac
+SHA256: 6d511840dcfbcc82c08be4f2df91c5d109ad9339693b2c43e4040e4c6a2ad9ee
+SHA512: 2b710f181bd2fa5fef4d2caf9b18963003c8b20b39ec52d9ab33760656c57296f783abcd731b12401a55744521a6daf96a5095f0f835ec8270c2c2b58b60025e
+
+Package: libpcreposix
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.44
+Homepage: https://www.pcre.org
+Depends: pcre (= 8.44)
+Description: Posix-compatible runtime libraries for libpcre
+Filename: dists/stable/main/binary-aarch64/libpcreposix_8.44_aarch64.deb
+Size: 3302
+MD5Sum: b4fb553d3ebe5ef509ed275c7248d1c2
+SHA1: 51853f070e3678cf6fcf4695a174e25fb588e9de
+SHA256: cc6e7aae56b661f11246d2735561c318e959d8f49096b969010c9dcc19458a0d
+SHA512: 16e8d6467a1cf67e6088f5a06b6b2af4627a54a8021d536d0a12bc83b0e614ab542cbbf731bf70073fdcbea6908a6a7cee8c443882762a0f8ef5e3e9978f2871
+
+Package: libsearpc-static
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2-1
+Homepage: https://github.com/haiwen/libsearpc
+Depends: libsearpc (= 3.2-1)
+Description: Static libraries for libsearpc
+Filename: dists/stable/main/binary-aarch64/libsearpc-static_3.2-1_aarch64.deb
+Size: 13126
+MD5Sum: d7663040c1a474c84c46fb3deffe3728
+SHA1: e1f5de1ce2cb70d2bf31f2641edc2a88ee6320b8
+SHA256: c8449993143558e9978ab43628c18e7a0eb0b489ac379cea908e2c49880cc078
+SHA512: f5e9743eb878f1f85850393c6aa26d1339c26fbcae160cd403e951b94792a9cd13c7599d7fb1cca802b51f96f93e0f28914667e7d38c8db03d252e32d2a5d4cb
+
+Package: libsearpc
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2-1
+Homepage: https://github.com/haiwen/libsearpc
+Breaks: libsearpc-dev
+Depends: glib, libjansson
+Replaces: libsearpc-dev
+Description: A simple C language RPC framework (mainly for seafile)
+Filename: dists/stable/main/binary-aarch64/libsearpc_3.2-1_aarch64.deb
+Size: 22894
+MD5Sum: cd375f439a1f34d7408e65554b731b18
+SHA1: fb61c9f9f428819105a40ae9d083952403bc0998
+SHA256: ef7da43a187eb5ec10ffd2563dc2348425f7aeb4cce310b9ec63500dd9e0f461
+SHA512: 5bed4a8c32fc33988ccad7a51430352d6952ae8713a587ced8be547ff46f50255311d4be4bd877f1fae6f13eed8c7604d5333075057238a9c7a2d624ad76ee42
+
+Package: libsqlite-static
+Architecture: aarch64
+Installed-Size: 1280
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.31.1
+Homepage: https://www.sqlite.org
+Depends: libsqlite (= 3.31.1)
+Description: Static libraries for libsqlite
+Filename: dists/stable/main/binary-aarch64/libsqlite-static_3.31.1_aarch64.deb
+Size: 428522
+MD5Sum: 4a6e1da6d95510dc96dd4992fa3fb535
+SHA1: 7afd429dbf407aeb67c50e3df31eb2f31f5a257c
+SHA256: 21678701a11d0c3bd70fefc1ae57222541a9c73658f518f3c33b9412c1d6fec5
+SHA512: bb0045e438e6ec3623f1fd906cb3dabde7bfd6bef4da5eda2f252ed48b8b724e6fb267ccc691a909ac77d4bc3735466a34b63035d896d4f13a2b2902b0691ebe
+
+Package: libsqlite
+Architecture: aarch64
+Installed-Size: 1624
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.31.1
+Homepage: https://www.sqlite.org
+Breaks: libsqlite-dev
+Depends: zlib
+Replaces: libsqlite-dev
+Description: Library implementing a self-contained and transactional SQL database engine
+Filename: dists/stable/main/binary-aarch64/libsqlite_3.31.1_aarch64.deb
+Size: 539686
+MD5Sum: c0b35310dfdbeb4020481b464efc588f
+SHA1: 3412acd261516584d34b6d0f89f419d312b3eaa6
+SHA256: c394a5fb809fe5191e2e802a77a8995b12581df5a9ff42c1a33fdbcc44c2ed5c
+SHA512: ef08ce77491ea52edcbd85ef780096a21b3ceb230c64cc4ead88be51289a1f416bafaab31aa4ab40949856fa7cf671ca6a9b39795711e9f96f0add5382e7d807
+
+Package: libunistring-static
+Architecture: aarch64
+Installed-Size: 2440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.10-3
+Homepage: https://www.gnu.org/software/libunistring/
+Depends: libunistring (= 0.9.10-3)
+Description: Static libraries for libunistring
+Filename: dists/stable/main/binary-aarch64/libunistring-static_0.9.10-3_aarch64.deb
+Size: 400396
+MD5Sum: c1794ee09a04985f1c4b6c5feaec416f
+SHA1: 70630cbadea539a883566b766e2ec583a85faae0
+SHA256: 3553c2b9e62bdc9d254a01b3f939ce1e71a126d03a4c38799b4be1cd733cc846
+SHA512: 02d18bc2ad17d6b24b2dd3d67ece9d279aab135314bbd24fd7893198d83df4471299f27b456e995a0cf3927cd7cd9c0f491ae3db056688b60cb53543267f2c51
+
+Package: libunistring
+Architecture: aarch64
+Installed-Size: 2728
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.10-3
+Homepage: https://www.gnu.org/software/libunistring/
+Breaks: libunistring-dev
+Depends: libandroid-support, libiconv
+Replaces: libunistring-dev
+Description: Library providing functions for manipulating Unicode strings
+Filename: dists/stable/main/binary-aarch64/libunistring_0.9.10-3_aarch64.deb
+Size: 475082
+MD5Sum: 339a413fcff0dd8c803cca57ebf98581
+SHA1: 1a93e08e9821867439e27e16ebcd47d041e07412
+SHA256: a8b81920b73c7227c3707967c2828fac36cfd288e7ef8105c0a2d2cd08c6f8ae
+SHA512: 030edfdd2efe59d4f4773c00ce7f6ff3e509506b74e5faee0f53033b31f295ed0efdb469a7d38b684b2b4e8a5a9e1ccb8c8f1cca401657868c9b8d240b79de49
+
+Package: libuuid-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3-3
+Homepage: https://sourceforge.net/projects/libuuid/
+Depends: libuuid (= 1.0.3-3)
+Description: Static libraries for libuuid
+Filename: dists/stable/main/binary-aarch64/libuuid-static_1.0.3-3_aarch64.deb
+Size: 5768
+MD5Sum: e93b63fa3fedbfb729a5b0f5058b09be
+SHA1: 9cf0fdaf471eef5ef7a260f5fb375ad7f4fa7bd9
+SHA256: fb60bc57fe9093573b70b0ce159ebb1d55c1b5f5b41b55f9635c97a3dd1c1d3a
+SHA512: 9bc75bb7db9f465beff29e9a55683e65b8586edbca1401b1ff64b1d0c99a375e1697403fc74720a0298954a53084e460c0609b1c910271a96a1804db5f1a0d2b
+
+Package: libuuid
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3-3
+Homepage: https://sourceforge.net/projects/libuuid/
+Breaks: libuuid-dev
+Replaces: libuuid-dev
+Description: Portable uuid C library
+Filename: dists/stable/main/binary-aarch64/libuuid_1.0.3-3_aarch64.deb
+Size: 6428
+MD5Sum: afc6e4a2d9456efa630df09690c8616e
+SHA1: 629c191eabe4d4de9b76c517851c05e98c1074bb
+SHA256: afbea7e6859b48599a4acec78b77fe57708b97066ec4c7c6edb831c54cc1e263
+SHA512: 46447035d29c395e314560c1d35656b62b942348db7bf68d5c74d7438f9248865eb443bec915a4f8f6c6a8fb9d98f8b22ac6cbb719ea6927d7050876fc3a7f0b
+
+Package: ncurses-static
+Architecture: aarch64
+Installed-Size: 720
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190928
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.1.20190928)
+Description: Static libraries for ncurses
+Filename: dists/stable/main/binary-aarch64/ncurses-static_6.1.20190928_aarch64.deb
+Size: 141800
+MD5Sum: 9004e4cc78af0485bfa4a4ed35fa7b54
+SHA1: b68377222bf866fae549a48d5824e0f4b74436ea
+SHA256: e8f4c0c649b11c421b510a5fa9dbaaf888d0bf9e2b8176820e84ebb4e8bb57fa
+SHA512: 9bfcd9e3c7eda150c190d40e2d064e6cb2d61020d149d10f308dae4386a5a0c267a84c530e721ce4bc1f999e1c0266d91e2ae45386410e2789bd46553b8c5ed7
+
+Package: ncurses-ui-libs-static
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190928
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.1.20190928)
+Description: Static libraries for terminal user interfaces based on ncurses
+Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs-static_6.1.20190928_aarch64.deb
+Size: 36870
+MD5Sum: a399ad5ab2deb3532a70f45722871493
+SHA1: a34dcf3da2afd16bd01d02661d436e950656af2f
+SHA256: fb6af0dd5d1bafc336f2bc2d462e26dae018246b29aa74648c8dc80d0f21ea13
+SHA512: c258f8907190831422e5ab34f9055e23ce8f2eb65a8f4a8791980135d30bc857b6aa15859cd28a4a2fdcd4db1147475a53a05689b43e97ce63930d01b0e40d41
+
+Package: ncurses-ui-libs
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190928
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.1.20190928)
+Description: Libraries for terminal user interfaces based on ncurses
+Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs_6.1.20190928_aarch64.deb
+Size: 29214
+MD5Sum: b8a1a25e8f599c380738a3cb01eff8b5
+SHA1: f9b1f86415f9a4a19f4dde24419f433e76de3ee2
+SHA256: 78afed5714d9bab70d7d69e32e7d7a4de1df54fdb8485646916ab54654a1d2fe
+SHA512: 5cff0ada9d0d0091798f4fa40a11125530c65064dbd44d1b1e72fc16cf00db46da2927aa9f122158ff7c4f32a745e0fa9d2043bd1b8e52b0d4fdd9c6a9efe438
+
+Package: ncurses-utils
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190928
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.1.20190928)
+Description: Tools for working with terminals
+Filename: dists/stable/main/binary-aarch64/ncurses-utils_6.1.20190928_aarch64.deb
+Size: 79956
+MD5Sum: 7e9be56e46dbafe1a9207aa0e9824a83
+SHA1: efc0afaf283cb687879d68fdf666e4ac807c6d5d
+SHA256: 5576b5ec8509592224f8041fdf6ebd45d88fe91fdf3d4e3aa8e5785664e8241e
+SHA512: 6c93314687a5100a4eb4ff63faff61a590c8c630749020234c2830cc4152aae450ca5c7c70369066c772a11f4ad053320f6aadd095ec00254339be5364d990eb
+
+Package: ncurses
+Architecture: aarch64
+Installed-Size: 1492
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190928
+Homepage: https://invisible-island.net/ncurses/
+Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Description: Library for text-based user interfaces in a terminal-independent manner
+Filename: dists/stable/main/binary-aarch64/ncurses_6.1.20190928_aarch64.deb
+Size: 479480
+MD5Sum: a393f990614097dde638c91a85a2cd71
+SHA1: 9698f23bc245044797bfdc2341fe42c6974fd96b
+SHA256: aa36861c1140556a049fa4209b0880054def422d57592341d1aa35a44b21867b
+SHA512: ff3ea190a4c27a34699ede16e10e4506c671805e57ff2584e2a77425cd66b6ecf845cc82678ab8c6e2c0b8c479c5e5e7844c4a1d0251cd91186061a08c107e23
+
+Package: nettle
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.1-2
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Depends: libnettle (= 3.5.1-2)
+Description: Low level cryptographic tools
+Filename: dists/stable/main/binary-aarch64/nettle_3.5.1-2_aarch64.deb
+Size: 16462
+MD5Sum: 147731e53e319acf3aab01fce92d2443
+SHA1: c043f7529160ba4a67826825d5fd4c17abad93b0
+SHA256: e6a3828b04911966bb9748684b8ffc0ac77f59fe0c64b9743d2b2c1449b0da3b
+SHA512: c2c361e72f48d8d8436b34763bc0760a1f26315e29ac6a7df759f587309b0be10c480e77ba086c1de103ce53815e31a1754daeed6820541cda2f1050da72b0d6
+
+Package: openssl-static
+Architecture: aarch64
+Installed-Size: 5372
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1d-1
+Homepage: https://www.openssl.org/
+Depends: openssl (= 1.1.1d-1)
+Description: Static libraries for openssl
+Filename: dists/stable/main/binary-aarch64/openssl-static_1.1.1d-1_aarch64.deb
+Size: 1157310
+MD5Sum: c303c275a95fa047a463ff3c5b35fb75
+SHA1: 1896446ca40f45d0d891f0110a0842814b466dbc
+SHA256: caaa0afee24426e51aabc1d41b6f4cd24aed911071cabdb6d119c89003d57db9
+SHA512: b026c6c317a1eca2d09eac368f1349031f68c58211ef9eb2798c4efb2bfd693e7da088ebbe396496822c9e09e5f0b8635c4009987e310d06bf17efc1684b77fb
+
+Package: openssl-tool
+Architecture: aarch64
+Installed-Size: 624
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1d-1
+Homepage: https://www.openssl.org/
+Depends: openssl (= 1.1.1d-1)
+Description: The openssl command line cryptographic tool
+Filename: dists/stable/main/binary-aarch64/openssl-tool_1.1.1d-1_aarch64.deb
+Size: 183788
+MD5Sum: d6ef1f51a4181ec1b317ab43b6d94e19
+SHA1: 0ca89e9e55b280b0a65bd355cc1103560110f402
+SHA256: 9a914df8751c68c142703230bea2a9339baf9919d170b1faae8a299c9ac1cf7d
+SHA512: 330f057201ccef9ca9e25afd3b21f0cc6f797481fd1e2cb99562dd63ad5d49fd892044fa805dad79e9655ab700370938c19ec9219577bc375285281a47880bd7
+
+Package: openssl
+Architecture: aarch64
+Installed-Size: 4144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.1d-1
+Homepage: https://www.openssl.org/
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Depends: ca-certificates
+Conflicts: libcurl (<< 7.61.0-1)
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Filename: dists/stable/main/binary-aarch64/openssl_1.1.1d-1_aarch64.deb
+Size: 1131964
+MD5Sum: b977fef0bafb9139c55beb77fa553ca8
+SHA1: f89ca9f0a02583de440e4be0b5e2ffea7385ad58
+SHA256: db379f25e83c3b0eac7b4ca6fc35f3716ff3aea5724174a967f75ea4415d7237
+SHA512: 491e84824c1657905eae29838b77316ae328ca53a462cb2733f8a623339a47cb1bf2ccbd98fe65fab40a0e94b653cf4102b351ff451780709488cbf037fa682a
+
+Package: pcre-static
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.44
+Homepage: https://www.pcre.org
+Depends: pcre (= 8.44)
+Description: Static libraries for pcre
+Filename: dists/stable/main/binary-aarch64/pcre-static_8.44_aarch64.deb
+Size: 138228
+MD5Sum: 48da9d81533f4d63c8c8ef6ab0d90115
+SHA1: d061b67823e2b3a400383f35380e86f10197b8b4
+SHA256: e296b70315b2957ad6064bb80f702090739bc97054cd6ab961c7aefcbc53ee40
+SHA512: 509bce81e64b0e495886121ab792133da8aa932537d1395011be3e7f7de1240cfd968a31dc4705e9dfa9b1874bf235fa8da62994a7210eabd6467f3793b9e8b8
+
+Package: pcre
+Architecture: aarch64
+Installed-Size: 2696
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.44
+Homepage: https://www.pcre.org
+Breaks: pcre-dev
+Replaces: pcre-dev
+Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+Filename: dists/stable/main/binary-aarch64/pcre_8.44_aarch64.deb
+Size: 649986
+MD5Sum: 028545bbe7d07e59edef8f91e309d221
+SHA1: f872bff32a05465e9f089f9a19454e16da2174fa
+SHA256: 43ae6fd9c06f4893488600b199b6b7c8b09f9d4fffe9575ddcfa291719b960ac
+SHA512: 7ec1542072abd60c8ac7acd608e39482327e5c7c2e653a9d58f9a1e116165d1e3ed82250043dc8c2d179be8cb789fc8e9a6f1fe758ea641e05be8de6df22ac41
+
+Package: pinentry
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-4
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: libandroid-support, libassuan, libiconv, ncurses
+Description: Dialog allowing secure password entry
+Filename: dists/stable/main/binary-aarch64/pinentry_1.1.0-4_aarch64.deb
+Size: 35020
+MD5Sum: 56bca3f8a7fbd951c2be2137da9b70b8
+SHA1: 937ea1611e4966836487368bc063efe431f8f132
+SHA256: 9659bb8a3ddee6eccb3219ca7b95c7a6c61b6b6de5e9e466b8f6db88ab053233
+SHA512: 7654232b98792bf933b453bcc8b4fc7f792ed2d94cdc1ad13dfcdc05a79df2de1fb81c42ae29473b7477f93fe2c44606558c7ab9938eaf8c45acc2841a0ae384
+
+Package: procps-static
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.16
+Homepage: https://gitlab.com/procps-ng/procps
+Depends: procps (= 3.3.16)
+Description: Static libraries for procps
+Filename: dists/stable/main/binary-aarch64/procps-static_3.3.16_aarch64.deb
+Size: 28484
+MD5Sum: f26c0ffc2ed11f0b0b49800be3c143fd
+SHA1: 010ae2eee74794d8d2c7988071411e26a2db6032
+SHA256: 5af69ee485ea91ab55ffced9cfe3c550922d614e86add37dbef107be9ac74b42
+SHA512: 737bd571a743ddd08e832cf0ec1481fabdedb097d1160cc6e2b887ec03501c04bb00c2988d4c15c065c3e45e9ba08d181f58a4263364b7e6df839cd3117b33a5
+
+Package: procps
+Architecture: aarch64
+Installed-Size: 708
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.16
+Homepage: https://gitlab.com/procps-ng/procps
+Breaks: procps-dev
+Depends: ncurses
+Essential: yes
+Replaces: procps-dev
+Description: Utilities that give information about processes using the /proc filesystem
+Filename: dists/stable/main/binary-aarch64/procps_3.3.16_aarch64.deb
+Size: 136428
+MD5Sum: b7f5467469d4805d7616400ca4db98b9
+SHA1: 6a668ce93726ee7fab67bbdfef9b33732dfc9bbc
+SHA256: 5305246408ac5dd0787086de84338b106bb045ca9a4efd1eb3b148f417ee2ac0
+SHA512: f9715d34de54730e0b6e0bc36db8642921e00b761d289d54a9033a1b4403bdd1e30f16f037854eece133e6688b14f640cf028aeb74508f20decf698165316e8f
+
+Package: psmisc
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 23.3-2
+Homepage: https://gitlab.com/psmisc/psmisc
+Depends: ncurses
+Essential: yes
+Description: Some small useful utilities that use the proc filesystem
+Filename: dists/stable/main/binary-aarch64/psmisc_23.3-2_aarch64.deb
+Size: 38152
+MD5Sum: d279401e8b73abe67fdda8ea3e391e91
+SHA1: 40dfde5261a861d56ee1d14c023eccad0dfae175
+SHA256: f9f5be86603bc68a4292c56611c592f5383f6dad8faca6122746c838ea1a2ee1
+SHA512: bc138ae3653eac780591b970973f17c41813b6cabacb921f6aae4a1f1600b9590030c3c35511c4ad9d89a1200e3a34573cdfc8300fb72036b2063789d16a94ea
+
+Package: python2-static
+Architecture: aarch64
+Installed-Size: 9892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.17
+Homepage: http://python.org/
+Depends: python2 (= 2.7.17)
+Description: Static libraries for python2
+Filename: dists/stable/main/binary-aarch64/python2-static_2.7.17_aarch64.deb
+Size: 1720442
+MD5Sum: 7427ebc263d26e127ad7cc6ffed76fe6
+SHA1: a6737fdb8e0ae7eea6e68912c5f35d741792b80c
+SHA256: b1326524b17e5d9acea381e0838c16c8870a421e5a73b70dc52afa7d0308e33a
+SHA512: 83e754488bff8ad00c5a3e5da82501695430f9b3010ae9e3e1b8ffef05de92668ffe8ad5fc66e4a90c2af164965cdd60857632a208c6859717eaa3512c03b419
+
+Package: python2
+Architecture: aarch64
+Installed-Size: 18660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.17
+Homepage: http://python.org/
+Breaks: python2-dev
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, zlib
+Replaces: python2-dev
+Description: Python 2 programming language intended to enable clear programs
+Filename: dists/stable/main/binary-aarch64/python2_2.7.17_aarch64.deb
+Size: 4847516
+MD5Sum: cada8b262fe81c30d1e4682389517b98
+SHA1: c5a778cf3baf15c3b07635c2a32eb7dd687b3d44
+SHA256: bafc2ca2131d0c127477833674f878eccd72cdff30cef160879c832c19424862
+SHA512: 03888a9f1d0dd0f15610f55dfb58e0dfb6322e1fa7544a8296c917b1d5619bc4d6b8e13ef43cee92ee9a1acfb04fa1002a866c13ad77ea98619fd0b7e4bf96b2
+
+Package: readline-static
+Architecture: aarch64
+Installed-Size: 652
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.4
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Depends: readline (= 8.0.4)
+Description: Static libraries for readline
+Filename: dists/stable/main/binary-aarch64/readline-static_8.0.4_aarch64.deb
+Size: 111256
+MD5Sum: 5716b120187c9b198cb8a0b41717cba5
+SHA1: db6bdfafc62ed9d280d7552641c9e51a9704727b
+SHA256: 7356d70680ddb273f4c231c5b8aa075d7186f11fa66a27e5e44b2f746274f252
+SHA512: 58ba4ae745d223268db2299bcf73f3f9c3b31c5f12d1e710762a4306f34e06959daf7d252d173d88b4c25840803a9fa225ec5cc938d9856ecda6384334b60bb6
+
+Package: readline
+Architecture: aarch64
+Installed-Size: 1080
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.4
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Breaks: bash (<< 5.0), readline-dev
+Depends: libandroid-support, ncurses
+Replaces: readline-dev
+Description: Library that allow users to edit command lines as they are typed in
+Filename: dists/stable/main/binary-aarch64/readline_8.0.4_aarch64.deb
+Size: 219584
+MD5Sum: 00a84104db5b9897b9309bdfaf10fd79
+SHA1: dcf8d848b40cc91c46dd4fd9a2acbed1448609f0
+SHA256: 8e110595482eddb2aa756948653d4fa7ef4f49aac48752f003d137e7801b8cf4
+SHA512: 3ff23d92a3dd39736250139abc2a875e40e6effa35242ddc4fc977027775cee61efb0e659bd8a609ed8fbd5cee88cd91497f466613e928183e9693c7e283b5fc
+
+Package: resolv-conf
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2
+Homepage: http://man7.org/linux/man-pages/man5/resolv.conf.5.html
+Description: Resolver configuration file
+Filename: dists/stable/main/binary-aarch64/resolv-conf_1.2_aarch64.deb
+Size: 946
+MD5Sum: 4913ea90457c84b7be5fc992dc58e1cf
+SHA1: 7fef0871554d3b19206a19ee343308bf7836feaf
+SHA256: cef1d2241f7158f9e01982a7a5c942fc0557709dd3a1bd2d8f9b576d2610eada
+SHA512: 834c711e105453612ec024f92ec7d9183674318f02a807ff0df256ac49e1a40368cd0119b1fa877bec3dbdac42a9d046ce8ee7cd93abbd7a390e872bb479ecde
+
+Package: seafile-client-static
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.6
+Homepage: http://seafile.com
+Depends: seafile-client (= 7.0.6)
+Description: Static libraries for seafile-client
+Filename: dists/stable/main/binary-aarch64/seafile-client-static_7.0.6_aarch64.deb
+Size: 15870
+MD5Sum: dadf2fc6c02018256f1707e11f73e50c
+SHA1: b86a596091de3be482cfb566d4485f320cf8b849
+SHA256: cb4e9f86a3d051c931497cd4576cb570d2af9b7c0eca266def2179f2ef918727
+SHA512: 52c4a1ff352e204dcbdb68fcca948f5f6d848604c9ba6f21546d3952d8a94c78dd732e18268296d2286dd71e51136ecfbe0a29fd3478d524b4892b06140d8bd0
+
+Package: seafile-client
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.6
+Homepage: http://seafile.com
+Breaks: seafile-client-dev
+Depends: ccnet, libcurl, python2
+Replaces: seafile-client-dev
+Description: Seafile is a file syncing and sharing software with file encryption and group sharing
+Filename: dists/stable/main/binary-aarch64/seafile-client_7.0.6_aarch64.deb
+Size: 126008
+MD5Sum: 55d019e3d6bb405f1f19e7885032a5fb
+SHA1: 8c30010004fce869677fe1ceced07ff2226c6111
+SHA256: 1a9c08cbe4176620d7a5b39a0a592b9810dd26a5add3170128bd7c957933a326
+SHA512: bd0b4344aa049f33d7dd728bf527009eeb2d7c6df5d59ba73247efba0e41b5db745ec121185e58f788fc74b5474880c3ed27974952ee01ce44eb99403aab52a9
+
+Package: sed
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.8
+Homepage: https://www.gnu.org/software/sed/
+Essential: yes
+Description: GNU stream editor for filtering/transforming text
+Filename: dists/stable/main/binary-aarch64/sed_4.8_aarch64.deb
+Size: 111950
+MD5Sum: f061a0d5c556f30b95632379a7287b3f
+SHA1: 08b6130d2dd44e6f22c37c56b5c59b651bacc70f
+SHA256: 31e59d40f65305ceee8c3a3e6aa1006c9b1e4a631617a22ce2305f640a51b3a7
+SHA512: 5eeba970d69541d1a766d3d67b8ca50dafce7c9529d947a9c9770feb8e680356acb918a176509a2e7602e9123580aa6927f3df10d2d4bf5e6d5e576a0e78d246
+
+Package: sqlite
+Architecture: aarch64
+Installed-Size: 1032
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.31.1
+Homepage: https://www.sqlite.org
+Depends: readline, libsqlite (= 3.31.1)
+Description: Command line shell for SQLite
+Filename: dists/stable/main/binary-aarch64/sqlite_3.31.1_aarch64.deb
+Size: 458716
+MD5Sum: 736bfa356bfda056e9287db6191d03ce
+SHA1: db943e5824d9695cedd5ede63577b5db88863e0e
+SHA256: 0f364e60f93022da44ff34ecd8d065057486948e00f7e55d64400875069f1551
+SHA512: baefaeec1c0736202eba68cec62cd8529aa571873a47407059ef0caa7daf0dcbbf348ac0bbc5a209880bbbddfff240fdff6a25498fab83ea0ef419d3841f2050
+
+Package: tar
+Architecture: aarch64
+Installed-Size: 1156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.32-5
+Homepage: https://www.gnu.org/software/tar/
+Depends: libandroid-glob, libiconv
+Essential: yes
+Description: GNU tar for manipulating tar archives
+Filename: dists/stable/main/binary-aarch64/tar_1.32-5_aarch64.deb
+Size: 326644
+MD5Sum: c01440814c99c31449da8ce611b31c16
+SHA1: 7d37989072ca21f802df992721449942cb3d568b
+SHA256: 1f51f974eac3c5529ab64fda2560fd69e10d9e013813b163fb2dc7066a04e447
+SHA512: d58ef090afe558c0a5387992c8e33a7cf51eefb0609cd50ce757f425513918b5c307351d9587b1420cd87134b4faee28578acc902d40bef2190bf439df989115
+
+Package: termux-exec
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4-1
+Homepage: https://github.com/termux/termux-exec
+Essential: yes
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+Filename: dists/stable/main/binary-aarch64/termux-exec_0.4-1_aarch64.deb
+Size: 2806
+MD5Sum: 649578c7d625cf7d1e89ea3606b9674c
+SHA1: d4ecdce98b1c331e8e08ffe472a97d7615195778
+SHA256: 16b3c3dd9e08edb6cc1f3ed3299c67b905f2c0f3548436dfb33c06569356ff54
+SHA512: 46a1255c32a0eed44611c29b84b1220c9772e58014d857f6cf1c88bae2be8bfc0056d23b9115cf25d7300ec5b22f8b45f5abbae1317707355a3cabb678155dae
+
+Package: tor
+Architecture: aarch64
+Installed-Size: 12232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4.2.6
+Homepage: https://www.torproject.org
+Depends: libevent, openssl, liblzma, zlib
+Description: The Onion Router anonymizing overlay network
+Filename: dists/stable/main/binary-aarch64/tor_0.4.2.6_aarch64.deb
+Size: 2145494
+MD5Sum: bc39724e59a03759c90cd87f3db27a60
+SHA1: 5f2b707ef92ea86ef92aff41dde33f15e8b7537c
+SHA256: de7296b1ad321d871f18e7b051c2cbe1659408d5464c7173b476c8105b852625
+SHA512: e015aac6b73fb1cae252406b551586c1d71581fddc533df67d803e8040645a0ab8d8a9c14e74ed12b96e1d49ce2002dae78f007b805c803f2a28b18d28abcb56
+
+Package: xz-utils
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.4-7
+Homepage: https://tukaani.org/xz/
+Essential: yes
+Depends: liblzma (= 5.2.4-7)
+Description: XZ-format compression tools
+Filename: dists/stable/main/binary-aarch64/xz-utils_5.2.4-7_aarch64.deb
+Size: 57260
+MD5Sum: cce3c1ad405992c625d0d285b9486fec
+SHA1: 1630f67ebc84088fb73020dc28a15fd66f2afff5
+SHA256: 59d6b460eac5d3e4dc1e66e0e871eac0f93e63df0ff3b79a0f53491c31dac38b
+SHA512: 2c461f05df0adf318d049aad817c658fe6011a4736096995894fdf49a00e75d6b94ffdd4cc23844a7b28ba7608dac91a096d721f7dbdf7de8e16fccf058a1126
+
+Package: zlib-static
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.11-4
+Homepage: https://www.zlib.net/
+Depends: zlib (= 1.2.11-4)
+Description: Static libraries for zlib
+Filename: dists/stable/main/binary-aarch64/zlib-static_1.2.11-4_aarch64.deb
+Size: 40604
+MD5Sum: 9afd1a6fd97adc0dc501c53c89a84140
+SHA1: c937d75f27d76312fb09e728386637ba2e6d8694
+SHA256: 9b2cbba2d023f20f3570e9712ccdb1d5ba60fd52daa3ed44001584e671ee3e85
+SHA512: 9de7962d6a9921ea19d6e75ef10ebb4d352dd0e35c47a858d8db980b172a516e2a09279ea674f237d58e69c6863086a06a4f7daee38d41262977d1ee758fa0e9
+
+Package: zlib
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.11-4
+Homepage: https://www.zlib.net/
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+Filename: dists/stable/main/binary-aarch64/zlib_1.2.11-4_aarch64.deb
+Size: 65844
+MD5Sum: fbadfe2cdbd88d052b1bf54359c87fea
+SHA1: 89f264bd4c4724532c21c0d541b4c62e82f9c352
+SHA256: 4346e552327a2cddf8a8173677dd8fd5fb77d5f30182e715e6edf961f8c0e202
+SHA512: 9505fdb155cd2eb10129ff5af1e77581b0304fddb5905cedd2f79b068732d282d85887f4ad9eca07a582b10e42907a3b67c1fbc10358aee05c8ab69e325e7210
+
