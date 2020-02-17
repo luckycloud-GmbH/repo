@@ -433,6 +433,37 @@ SHA1: f15db77b1b77f660b638a92656d4b68befa815d0
 SHA256: 32212e2742aaedf9b44df9f35db35927fe9a1c578af703b631de41433e2fc578
 SHA512: c24aecc24d84af86d23775712211497dc9cc6a6fff025c4269e44d91cc7a8d83b45abba802ac40641f234d9e404e6657657696083cc0edcdd2601b79d10c8397
 
+Package: inotify-tools-static
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.20.2.2
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Depends: inotify-tools (= 3.20.2.2)
+Description: Static libraries for inotify-tools
+Filename: dists/stable/main/binary-aarch64/inotify-tools-static_3.20.2.2_aarch64.deb
+Size: 12532
+MD5Sum: 792c4bad6810862eeb520503c8c102d5
+SHA1: fc92afd0f407de7aae4b7024fefce89200ba434f
+SHA256: 95b31f9c9538449afea33a44ed2e6adbb74c2c9b1b330b0d47f3a5236747c163
+SHA512: a58f05170868ca0bd47226b42ebd3633b964f81830c25922f719cd723278febb72ea8030888d27477af01002c99642d665da55539193eff7b85527e0544ee370
+
+Package: inotify-tools
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.20.2.2
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Breaks: inotify-tools-dev
+Replaces: inotify-tools-dev
+Description: Programs providing a simple interface to inotify
+Filename: dists/stable/main/binary-aarch64/inotify-tools_3.20.2.2_aarch64.deb
+Size: 30316
+MD5Sum: ec5f6eb35ae1bbc75b621f8c13db72e1
+SHA1: e52164de3ff201c3a4f32e0e7f473732d4b8ce36
+SHA256: aebee8b14e3d79eb872c898d7e4172617163d714d5ebc70de53cebbf55f1b9a8
+SHA512: ee201f250296cdcc7b4fb6a32fe8f03cd376bd6344161c9ba440e2a29a80abd0a948fc555bc2d989f983c26f6becd845a5e803da44ce89b8981a9808209794f4
+
 Package: less
 Architecture: aarch64
 Installed-Size: 252
@@ -1255,6 +1286,21 @@ MD5Sum: afc6e4a2d9456efa630df09690c8616e
 SHA1: 629c191eabe4d4de9b76c517851c05e98c1074bb
 SHA256: afbea7e6859b48599a4acec78b77fe57708b97066ec4c7c6edb831c54cc1e263
 SHA512: 46447035d29c395e314560c1d35656b62b942348db7bf68d5c74d7438f9248865eb443bec915a4f8f6c6a8fb9d98f8b22ac6cbb719ea6927d7050876fc3a7f0b
+
+Package: nano
+Architecture: aarch64
+Installed-Size: 808
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.8
+Homepage: https://www.nano-editor.org/
+Depends: libandroid-support, libandroid-glob, ncurses
+Description: Small, free and friendly text editor
+Filename: dists/stable/main/binary-aarch64/nano_4.8_aarch64.deb
+Size: 196894
+MD5Sum: deee4e55037047725ae4327fa01374da
+SHA1: 1d14ea9373d9d92de92620e7076b0b2433768fea
+SHA256: c995ee24e2512f7fbab73676e652860f94e798ceb6dd984ac87bd4fe99abf607
+SHA512: 2ebe95f0516b0c10fa2a232aa3cc19c6b2929a890eb7152d49c2e27a8bfbc6d4c889d49904e614d5dbe4c4b3308d7b557acf939e732700ffeb8002fde0f185f8
 
 Package: ncurses-static
 Architecture: aarch64
